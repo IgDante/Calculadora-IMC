@@ -79,6 +79,12 @@ label {
     color: black;
 }
 
+#result {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 #submit::before {
     background-color: #ea3c3e;
 }
@@ -86,4 +92,3 @@ label {
 #submit:hover {
     background-color: #f72d31;
 }
-
