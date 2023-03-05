@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+}
+
+body {
+    background: url('https://cdn.wizard.com.br/wp-content/uploads/2017/01/05115936/aprenda-os-nomes-das-frutas-em-ingles.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fffec7;
+}
+
+.master {
+    display: grid;
+    box-sizing: border-box;
+    background-image: url('https://i.pinimg.com/564x/b9/5a/84/b95a84d555d01568ba46db459cfee193.jpg');
+    background-position: top;
+    justify-content: center;
+    width: 40%;
+    margin: 100px auto;
+    padding: 40px;
+
+    border: 1.5px solid #fffec7;
+    border-radius: 10px;
+}
+
+.text {
+    display: grid;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fffec7;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    background-color: #fffec7;
+    font-weight: bold;
+    
+    border: none;
+    border-radius: 4px;
+}
+
+#submit {
+    background-color: #ea3c3e;
+    text-transform: uppercase;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 6px;
+    color: #fffec7;
+
+    cursor: pointer;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+.credits {
+    display: grid;
+    justify-content: center;
+    margin-top: 165px;
+
+    font-size: 14px;
+    color: black;
+}
+
+#submit::before {
+    background-color: #ea3c3e;
+}
+
+#submit:hover {
+    background-color: #f72d31;
+}
+
