@@ -8,7 +8,7 @@
 - HTML e CSS
 - JavaScript
 
-## Projetos
+## Projeto
 
 Desenvolvimento WEB utilizando o JavaScript para fazer cálculos de índice de massa corpórea.
 
