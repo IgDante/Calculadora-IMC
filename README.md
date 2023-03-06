@@ -19,7 +19,7 @@ Projeto em finalizado.
 
 ## Layout
 
-<img alt="Layout do projeto" src="src/calculadora-imc.jpg">'
+<img alt="Layout do projeto" src="src/calculadora-imc.jpg">
 
 # Licença
 
