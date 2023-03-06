@@ -15,20 +15,25 @@
         <div class="container">
             <div class="input">
                 <label for="card-weight">Digite seu peso</label>
-                <input id="card-weight" />
+                <input type="number" id="card-weight" placeholder=" m" />
             </div>
             <div class="input">
                 <label for="card-height">Digite sua altura</label>
-                <input id="card-height" />
+                <input type="number" id="card-height" placeholder=" kg" />
             </div>
             <button id="submit">Enviar</button>
         </div>
 
-        <div id="result"></div>
+        <div class="section-result">
+            <div id="result-imc"></div>
+            <div id="result"></div>
+        </div>
         
     </div>
 
-    <footer class="credits">Design by Dante</footer>
+    <footer>
+        <div class="credits">Project by Dante</div>
+    </footer>
     
     <script src="script.js"></script>
 </body>
